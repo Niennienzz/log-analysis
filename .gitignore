@@ -1,0 +1,9 @@
+# SQL
+newsdata.sql
+
+# Vagrant
+vagrantfile
+
+# Hidden
+.*
+!/.gitignore
