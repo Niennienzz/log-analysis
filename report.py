@@ -57,6 +57,11 @@ if __name__ == '__main__':
     print()
 
     # 3. On which days did more than 1% of requests lead to errors?
+    # This is a hard one to me... References:
+    # https://www.postgresql.org/docs/current/static/functions-conditional.html
+    # http://www.postgresqltutorial.com/postgresql-subquery/
+    # https://github.com/ddavignon/logs-analysis/blob/master/newsdata.py
+    # https://github.com/sagarchoudhary96/Log-Analysis/blob/master/logs.py
     results = execute_query('''
         SELECT Log_err.Time,
             Log_err.Percent_err
