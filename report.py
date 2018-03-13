@@ -75,6 +75,6 @@ if __name__ == '__main__':
             GROUP BY Date(Log.Time)
             ORDER BY Percent_err DESC) AS Log_err
         WHERE Log_err.Percent_err > 1.0;''')
-    print("3. On which days did more than 1 percent of requests lead to errors?")
+    print('''3. On which days did more than 1% of requestslead to errors?''')
     print_results(results)
     print()
