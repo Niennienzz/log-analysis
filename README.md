@@ -24,14 +24,14 @@ As part of the Udacity \<Full Stack Developer\> Nanodegree, the intent of this p
 ```
 * Load the database using the following command:
 ```
-    psql -d news -f newsdata.sql
+    $ psql -d news -f newsdata.sql
 ```
 * NOTE: The shared directory in the virtual machine is under root /vagrant.
 
 ## Run the Python Program
 * From the vagrant directory __inside the virtual machine__:
 ```
-    python3 report.py
+    $ python3 report.py
 ```
 
 ## Summary
